@@ -45,9 +45,9 @@ This project delivers an end-to-end data analysis solution tailored to extract e
    - **Create New Columns**: Calculate the `Total Amount` for each transaction by multiplying `unit_price` by `quantity` and adding this as a new column.
    - **Enhance Dataset**: Adding this calculated field will streamline further SQL analysis and aggregation tasks.
 
-### 8. Load Data into MySQL and PostgreSQL
+### 8. Load Data into MySQL
    - **Set Up Connections**: Connect to MySQL using `sqlalchemy` and load the cleaned data into each database.
-   - **Table Creation**: Set up tables in both MySQL using Python SQLAlchemy to automate table creation and data insertion.
+   - **Table Creation**: Set up tables in MySQL using Python SQLAlchemy to automate table creation and data insertion.
    - **Verification**: Run initial SQL queries to confirm that the data has been loaded accurately.
 
 ### 9. SQL Analysis: Complex Queries and Business Problem Solving
